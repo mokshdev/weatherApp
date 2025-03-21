@@ -1,0 +1,28 @@
+#main_head{
+    font-size: 70px;
+    text-align: center;
+}
+
+#search_bar{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#searchbtn{
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    
+}
+
+#main_page{
+    font-size: 40px;
+}
+
+
+/* 
+*{
+    background-color:darkblue;
+} */

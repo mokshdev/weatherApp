@@ -1,0 +1,28 @@
+import getWeather from "./practice";
+
+
+
+
+
+
+export default async function getInput() {
+    try{const searchBar = document.querySelector("#city_name")
+    console.log(searchBar.placeholder);
+
+    const searchbutton = document.querySelector("#searchbtn")
+  
+    
+
+    searchbutton.onclick = async () =>{
+        await getWeather(searchBar.value)
+
+    }
+    
+            
+
+    }catch (error) {
+        console.error("Error fetching weather data:", error)
+    }
+
+    
+}
