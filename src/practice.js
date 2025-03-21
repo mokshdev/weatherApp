@@ -2,7 +2,7 @@
 
 export default async function getWeather(city) {
     try {
-        const apiKey = "4d567a5ebacb479787464206242904"; // Replace with your API key
+        const apiKey = ""; // Replace with your API key
         const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
         const response = await fetch(url);
